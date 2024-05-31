@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Montserrat ", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* scroll-behavior: smooth; */
+}
+body
+{
+    margin: 0;
+    padding: 0;  
+}
+.clear-fix
+{
+    clear: both;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.header .header-section
+{
+    width: 80%;
+    margin: auto;
+}
+.header .logo-icon
+{
+    float: left;  
+    width: 30%;
+    margin-top: 15px;
+}
+.header-icons
+{
+    display: inline;
+    list-style: none;
+    float: right;
+    margin: auto;
+}
+.header-icons li
+{
+    float: left;
+    padding: 0 15px;
+    margin-top: 30px;
+}
+.header-icons a
+{
+    font-size: 18px;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    color: white;
+    text-decoration: none ;
+}
+.header
+{
+    background-image: url(../Bakery/images/drew-coffman-1872.jpg);
+    background-size: cover;
+    text-align: right;
+    color: white;
+    height: 100vh;
+    background-position: center center;
+} 
+.header-context{
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    color: white;
+    padding-top: 100px;
+    width: 50%;
+
+}
+.header-context p,span{
+    font-size: 24px;
+    padding: 20px;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+}
+h1{
+font-size: 76px;
+padding: 20px;
+font-family: "Alegreya", serif;
+font-weight: 400;
+}
+.btn{
+    color: white;
+    padding: 15px ;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.btn-Learn{
+    margin-right: 10px;
+    border: 2px solid rgb(142, 119, 84);
+    background-color: rgb(142, 119, 84);
+}
+.btn-Contact{
+    border: 2px solid white;
+    background-color:transparent;
+}
+.about
+{
+    padding: 90px 80px 60px 80px;
+}
+.about .context_about{
+    width: 40%;
+    padding-top: 120px;
+    float: right;
+    margin-right: 2px;
+}
+.about h2{
+    font-size: 32px;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    padding: 2px;
+    margin-bottom: 30px;
+    float: left;
+}
+.about p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', arial;
+    color: #686868;
+    padding: 2px;
+    line-height: 1.86em;
+}
+.about .img-about
+{
+    width: 10%;
+    padding: 10px;
+    display: inline-block;
+    margin-left: 1px;
+}
+.about .img_about img
+{
+    width: 100%;
+    display: block;
+    float: left;
+    min-width: 100%;
+}
+.context-icon
+{
+    padding-top: 10px;
+    float: right;
+}
+.icon
+{
+    padding-top: 20px;
+}
+.context-icon .icons-about
+{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+    width: 8%;
+}
+.context-icon p
+{
+    display: inline-block;
+    width: 80%;
+}
+.about .icons-about img 
+{
+    border: 1px solid #686868;
+    border-radius: 50%  ;
+    width: 100%;
+    display: block;
+}
+.location
+{
+    padding: 90px 80px 60px 80px;
+    background-color: gainsboro;
+}
+.location .context_location  p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', arial;
+    color: #686868;
+    padding: 10px;
+    line-height: 1.86em;
+    margin-top: 1px;
+}
+.location .context_location h2{
+    font-size: 32px;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    padding-top: 10px;
+}
+.location .location-img
+{
+    width: 44%;
+    padding: 10px;
+    display: inline-block;
+}
+.location .location-img img
+{
+    width: 100%;
+    display: block;
+    float: right;
+    min-width: 100%;
+    margin-bottom: 0;
+}
+.location .context_location
+{
+    width: 40%;
+    padding-top: 120px;
+    float: left;
+}
+.baking h2
+{
+    font-size: 40px;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    text-align: center;
+}
+.baking p
+{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans', arial;
+    color: #686868;
+    text-align: center;
+    line-height: 1.86em;
+    padding-bottom: 70px;
+}
+.baking-sections .our-baking
+{
+    float: left;
+    width: 33%;
+
+}
+.baking-sections .our-baking .baking-img img
+{
+    width: 100%;
+}
+.baking-sections .our-baking .baking-img 
+{
+    width: 90%;
+}
+.baking .information h3
+{
+    font-size: 30px;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.baking .information p
+{
+    display: block;
+    font-size: 22px;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    text-align: center;
+    box-sizing: inherit;
+    margin-right: 50px;
+}
+.contact
+{
+    padding: 90px 100px 60px 100px;
+    background-color: gainsboro;
+}
+.contact .left
+{
+float: left;
+width: 45%;
+}
+.contact .right
+{
+    float: right;
+    width: 45%;
+}
+
+.contact h2
+{
+    font-size: 32px;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    padding: 2px;
+    margin-bottom: 30px;
+}
+.contact p
+{
+    font-size:17px;
+    font-weight: 400;
+    font-family: "Alegreya Sans", sans-serif;
+    color: #686868;
+    padding: 2px;
+
+}
+.contact .img_about
+{
+    width: 44%;
+    padding: 10px;
+    float: right;    
+    margin-left: 50px;
+} 
+.contact .img_about img
+{
+    width: 100%;
+    display: block;
+}
+
+.contact .about-icons img
+{
+    width: 80%;
+    display: inline-block;
+    border: 1px solid #686868;
+    border-radius: 50%  ;
+    background-color: #8E7754; 
+}
+.advanced
+{
+    width: 80%;
+    margin: auto;
+}
+.context_list
+{
+    padding-top: 10px;
+}
+.list-row
+{
+    padding-top: 20px;
+}
+.context_list .about-icons
+{
+    display: inline-block;
+    width: 8%;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+.footer{
+    background-color: #403D38;
+    padding: 90px 100px 60px 100px;
+    
+}
+.footer .footer-card{
+    width: 20%;
+    float: left;
+    padding-left: 40px;
+    color: #686868;
+}
+.footer .footer-card h4{
+    color: #fff;
+    font-size: 18px;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    padding: 2px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.footer .footer-card ul li{
+    padding: 10px 0px;
+    list-style: none;
+    border-bottom: 1px solid #4A4742;
+
+}
+.footer .footer-card p{
+    font-size:17px;
+    font-weight: 400;
+    font-family: "Alegreya Sans", sans-serif;
+    color: #686868;
+}
+
+.end{
+background-color: #353330;
+text-align: center;
+}
+.end p{
+    font-size:15px;
+    font-weight: 400;
+    font-family: "Alegreya Sans", sans-serif;
+    color: #686868;
+}
+.end .end-icons{
+display: inline-block;
+}
+.end .end-icons ul{
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+}
+.end .end-icons .icon-img{
+    width: 40px;
+}
+.end .end-icons li{
+    float: left;
+    width: 20%;
+    padding-left: 10px;
+}
+
+.end ul li img{
+    width: 100%;
+    border: 1px solid #686868;
+    border-radius: 50%  ;
+}
